@@ -1,0 +1,79 @@
+body{
+    background-image: url(https://www.gamepur.com/wp-content/uploads/2022/11/04090206/stasis.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+    color: rgb(0, 238, 255);
+    border: 2px solid;
+    max-width: 250px;
+    margin-left: 40%;
+    border-radius: 150px;
+    background-color: rgb(0, 0, 0);
+    font-family: "luz";
+    font-size: 20px;
+    letter-spacing: 2px
+}
+
+h2{
+    margin-top: 15%;
+    margin-left: 64%; 
+    color: rgb(241, 241, 241);
+    text-shadow: 4px 3px rgb(0, 0, 0);
+    font-family: "luz";
+    padding: 2px;
+    letter-spacing: 4px;
+    
+}
+
+
+.relogio{
+    text-align: center;
+    border: 2px solid rgb(2, 2, 155);
+    background-color: rgb(0, 0, 0);
+    border-radius: 150px;
+    max-width: 250px;
+    align-items: center;
+    margin-left: 69%;
+    color: rgb(4, 255, 242);
+    font-size: 30px;
+    font-family: "digi";
+}
+
+@font-face {
+    font-family: "luz";
+    src: url(Lightyear\ Design.ttf) format("opentype"),url(Lightyear\ Design.ttf)
+    format("truetype");
+    font-weight: normal;
+    font-style: normal; 
+}
+
+
+footer{
+position: absolute;
+bottom: 0;
+padding: 2px;
+border: 1px solid rgb(2, 2, 158);
+background-color: rgb(0, 0, 0);
+color: rgb(5, 226, 226)
+}
+
+.frase{
+    border: 2px solid rgb(2, 2, 155);
+    background-color: rgb(0, 0, 0);
+    border-radius: 150px;
+    max-width: 250px;
+    align-items: center;
+    margin-left: 69%;
+    margin-top: 1%;
+    color: aqua;
+    text-align: center;
+}
+
+#img{
+    margin-left: 73%;
+    top: 25%
+}
